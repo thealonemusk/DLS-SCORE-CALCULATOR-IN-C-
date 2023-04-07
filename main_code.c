@@ -538,48 +538,50 @@ void DLS2()
     printf("\n RAIN STOPS PLAY\n");
 
     // 0 wickets down case
-    if (a == 10 && c == 0 )
+    while ( c == 0 ){
+    if (a == 10 )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 38.7 + 1));
     }
-    else if (a == 11 && c == 0)
+    else if (a == 11)
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 42.1 + 1));
     }
-    else if (a == 12 && c == 0)
+    else if (a == 12 )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 46.0 + 1));
     }
-    else if (a == 13 && c == 0)
+    else if (a == 13)
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 50.7 + 1));
     }
-    else if (a == 14 && c == 0)
+    else if (a == 14)
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 58.3 + 1));
     }
-    if (a == 15 && c == 0 )
+    if (a == 15 )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 63.8 + 1));
     }
-    else if (a == 16 && c == 0 )
+    else if (a == 16)
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 69.2 + 1));
     }
-    else if (a == 17 && c == 0)
+    else if (a == 17)
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 74.6 + 1));
     }
-    else if (a == 18 && c == 0)
+    else if (a == 18)
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 80.3 + 1));
     }
-    else if (a == 19 && c == 0)
+    else if (a == 19)
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 86.3 + 1));
     }
     // 1 wicket down case
-    else if (a == 10 && c == 1)
+     while ( c == 1){
+     if (a == 10 && c == 1)
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 44 + 1));
     }
@@ -618,337 +620,346 @@ void DLS2()
     else if (a == 19 && c == 1)
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 88.7 + 1));
-    }
+    }}
     // 2 wickets down case
-    else if (a == 10 && c == 2)
+     while ( c == 2){
+    if (a == 10 )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 47.4 + 1));
     }
-    else if (a == 11 && c == 2)
+    else if (a == 11 )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 52.1 + 1));
     }
-    else if (a == 12 && c == 2)
+    else if (a == 12 )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 55.7 + 1));
     }
-    else if (a == 13 && c == 2)
+    else if (a == 13 )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 59.8 + 1));
     }
-    else if (a == 14 && c == 2)
+    else if (a == 14 )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 64.3 + 1));
     }
-    else if (a == 15 && c == 2)
+    else if (a == 15 )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 69 + 1));
     }
-    else if (a == 16 && c == 2)
+    else if (a == 16 )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 73.9 + 1));
     }
-    else if (a == 17 && c == 2)
+    else if (a == 17 )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 78.9 + 1));
     }
-    else if (a == 18 && c == 2)
+    else if (a == 18 )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 84.5 + 1));
     }
-    else if (a == 19 && c == 2)
+    else if (a == 19 )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 90.3 + 1));
-    }
+    }}
     // 3 wickets down case
-    else if (a == 10 && c == 3)
+    while ( c == 3){
+    if (a == 10 )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 49.9 + 1));
     }
-    else if (a == 11 && c == 3 )
+    else if (a == 11  )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 53.9 + 1));
     }
-    else if (a == 12 && c == 3 )
+    else if (a == 12  )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 58.3 + 1));
     }
-    else if (a == 13 && c == 3)
+    else if (a == 13 )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 62.6 + 1));
     }
-    else if (a == 14 && c == 3)
+    else if (a == 14 )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 67 + 1));
     }
-    else if (a == 15 && c == 3)
+    else if (a == 15 )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 71.4 + 1));
     }
-    else if (a == 16 && c == 3)
+    else if (a == 16 )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 75.9 + 1));
     }
-    else if (a == 17 && c == 3)
+    else if (a == 17 )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 80.6 + 1));
     }
-    else if (a == 18 && c == 3 )
+    else if (a == 18  )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 85.9 + 1));
     }
-    else if (a == 19 && c == 3 )
+    else if (a == 19  )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 91.5 + 1));
-    }
+    }}
     // 4 wickets down case
-    else if (a == 10 && c == 4 )
+    while ( c == 4){
+    if (a == 10  )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 54 + 1));
     }
-    else if (a == 11 && c == 4 )
+    else if (a == 11  )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 57.5 + 1));
     }
-    else if (a == 12 && c == 4 )
+    else if (a == 12  )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 61.1 + 1));
     }
-    else if (a == 13 && c == 4 )
+    else if (a == 13  )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 64.6 + 1));
     }
-    else if (a == 14 && c == 4 )
+    else if (a == 14  )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 68.3 + 1));
     }
-    else if (a == 15 && c == 4 )
+    else if (a == 15  )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 72.7 + 1));
     }
-    else if (a == 16 && c == 4 )
+    else if (a == 16  )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 77.6 + 1));
     }
-    else if (a == 17 && c == 4 )
+    else if (a == 17  )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 82.3 + 1));
     }
-    else if (a == 18 && c == 4 )
+    else if (a == 18  )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 87.3 + 1));
     }
     else if (a == 19 && c == 0 )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 92.7 + 1));
-    }
+    }}
     // 5 wickets down case
-    else if (a == 10 && c == 5 )
+    while (c== 5){
+    if (a == 10  )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 59.2 + 1));
     }
-    else if (a == 11 && c == 5 )
+    else if (a == 11  )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 62.2 + 1));
     }
-    else if (a == 12 && c == 5 )
+    else if (a == 12  )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 65.1 + 1));
     }
-    else if (a == 13 && c == 5 )
+    else if (a == 13  )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 67.9 + 1));
     }
-    else if (a == 14 && c == 5 )
+    else if (a == 14  )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 71 + 1));
     }
-    else if (a == 15 && c == 5 )
+    else if (a == 15  )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 74.5 + 1));
     }
-    else if (a == 16 && c == 5 )
+    else if (a == 16  )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 79.3 + 1));
     }
-    else if (a == 17 && c == 5 )
+    else if (a == 17  )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 83.5 + 1));
     }
-    else if (a == 18 && c == 5 )
+    else if (a == 18  )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 88.1 + 1));
     }
-    else if (a == 19 && c == 5 )
+    else if (a == 19  )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 93.3 + 1));
-    }
+    }}
     // 6 wickets down case
-    else if (a == 10 && c == 6 )
+    while ( c == 6 ){
+    if (a == 10  )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 63.9 + 1));
     }
-    else if (a == 11 && c == 6 )
+    else if (a == 11  )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 66.9 + 1));
     }
-    else if (a == 12 && c == 6 )
+    else if (a == 12  )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 69.8 + 1));
     }
-    else if (a == 13 && c == 6 )
+    else if (a == 13  )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 72.8 + 1));
     }
-    else if (a == 14 && c == 6 )
+    else if (a == 14  )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 75.8 + 1));
     }
-    else if (a == 15 && c == 6 )
+    else if (a == 15  )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 78.5 + 1));
     }
-    else if (a == 16 && c == 6 )
+    else if (a == 16  )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 81.7 + 1));
     }
-    else if (a == 17 && c == 6 )
+    else if (a == 17  )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 85.6 + 1));
     }
-    else if (a == 18 && c == 6 )
+    else if (a == 18  )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 89.4 + 1));
     }
-    else if (a == 19 && c == 6 )
+    else if (a == 19  )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 94 + 1));
-    }
+    }}
     // 7 wickets down
-    else if (a == 10 && c == 7 )
+    while ( c == 7){
+    if (a == 10  )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 70 + 1));
     }
-    else if (a == 11 && c == 7 )
+    else if (a == 11  )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 71.7 + 1));
     }
-    else if (a == 12 && c == 7 )
+    else if (a == 12  )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 73.9 + 1));
     }
-    else if (a == 13 && c == 7 )
+    else if (a == 13  )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 76.6 + 1));
     }
-    else if (a == 14 && c == 7 )
+    else if (a == 14  )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 80 + 1));
     }
-    else if (a == 15 && c == 7 )
+    else if (a == 15  )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 83 + 1));
     }
-    else if (a == 16 && c == 7 )
+    else if (a == 16  )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 85.8 + 1));
     }
-    else if (a == 17 && c == 7 )
+    else if (a == 17  )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 88.4 + 1));
     }
-    else if (a == 18 && c == 7 )
+    else if (a == 18  )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 90.7 + 1));
     }
-    else if (a == 19 && c == 7 )
+    else if (a == 19  )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 94.8 + 1));
-    }
+    }}
     // 8 wickets down
-    else if (a == 10 && c == 8 )
+    while ( c == 8){
+    if (a == 10  )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 81.4 + 1));
     }
-    else if (a == 11 && c == 8 )
+    else if (a == 11  )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 82.3 + 1));
     }
-    else if (a == 12 && c == 8 )
+    else if (a == 12  )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 83.3 + 1));
     }
-    else if (a == 13 && c == 8 )
+    else if (a == 13  )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 84.3 + 1));
     }
-    else if (a == 14 && c == 8 )
+    else if (a == 14  )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 85.5 + 1));
     }
-    else if (a == 15 && c == 8 )
+    else if (a == 15  )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 87.8 + 1));
     }
-    else if (a == 16 && c == 8 )
+    else if (a == 16  )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 90 + 1));
     }
-    else if (a == 17 && c == 8 )
+    else if (a == 17  )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 92.1 + 1));
     }
-    else if (a == 18 && c == 8 )
+    else if (a == 18  )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 93.8 + 1));
     }
-    else if (a == 19 && c == 8 )
+    else if (a == 19  )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 95.8 + 1));
-    }
+    }}
     // 9 wickets down
-    else if (a == 10 && c == 9 )
+    while ( c == 9 ){
+    if (a == 10 )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 92.1 + 1));
     }
-    else if (a == 11 && c == 9 )
+    else if (a == 11 )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 92.8 + 1));
     }
-    else if (a == 12 && c == 9 )
+    else if (a == 12 )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 93.4 + 1));
     }
-    else if (a == 13 && c == 9 )
+    else if (a == 13 )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 94.1 + 1));
     }
-    else if (a == 14 && c == 9 )
+    else if (a == 14 )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 94.8 + 1));
     }
-    else if (a == 15 && c == 9 )
+    else if (a == 15 )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 95.6 + 1));
     }
-    else if (a == 16 && c == 9 )
+    else if (a == 16 )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 96.5 + 1));
     }
-    else if (a == 17 && c == 9 )
+    else if (a == 17 )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 97.5 + 1));
     }
-    else if (a == 18 && c == 9 )
+    else if (a == 18 )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 98.4 + 1));
     }
-    else if (a == 19 && c == 9 )
+    else if (a == 19 )
     {
         printf("\n  Runs required by team B to win the match in 20 OVERS is %.2lf : ", floor((b * 100) / 99.1 + 1));
-    }
+    }}
+    
     // user type full overs
-    else if (a == 20 && c == 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 )
+     if (a == 20 && c == 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 )
     {
         printf("\n same score to be chased");
     }
